@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bentenglewo Jasa Cuci Motor</title>
+    <link rel="stylesheet" href="/assets/css/admin.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+             <ul id="nav-list" class="nav-list">
+                <li class="close-menu" id="close-menu">&times;</li>
+                <li><a href="/index.html">Beranda</a></li>
+                <li><a href="/Login/index.html">Pemesanan</a></li>
+                <li><a href="contact.html">Pengaturan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Admin</h2>
+            <nav>
+                <ul>
+                    <li><a href="#">Dashboard</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <h1>Admin Dashboard</h1>
+            <p>Daftar Pesanan</p>
+            <div class="container-2">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>No.HP</th>
+                            <th>Motor</th>
+                            <th>Waktu</th>
+                            <th>Jenis Motor</th>
+                            <th>Tanggal</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orderTable">
+                        <!-- Data akan ditambahkan di sini -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+    <script src="/assets/js/admin.js"></script>
+</body>
+</html>

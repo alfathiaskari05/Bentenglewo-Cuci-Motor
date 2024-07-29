@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bentenglewo Jasa Cuci Motor</title>
+    <link rel="stylesheet" href="/assets/css/user.css">
+</head>
+<body>
+    <header>
+        <img id="logo" src="/assets/img/logo1.png" alt="">
+        <nav>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
+            <ul id="nav-list" class="nav-list">
+                <li class="close-menu" id="close-menu">&times;</li>
+                <li><a href="/index.html">Beranda</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Lengkapi Pesanan Anda</h1>
+            </article>
+            <div class="container">
+                <div class="form_area">
+                    <p class="title">Detail Pesanan</p>
+                    <form id="orderForm" action="">
+                        <div class="form_group">
+                            <label class="sub_title" for="name">Nama</label>
+                            <input id="name" placeholder="Masukkan nama anda" class="form_style" type="text" required>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="phone">No.HP</label>
+                            <input id="phone" placeholder="Masukkan No. HP Anda" class="form_style" type="text" required>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="motor">Motor</label>
+                            <input id="motor" placeholder="Masukkan motor Anda" class="form_style" type="text" required>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="time">Pilih waktu</label>
+                            <input id="time" placeholder="Masukkan jadwal Anda" class="form_style" type="time" required>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="jenis_motor">Jenis motor</label>
+                            <select id="jenis_motor" class="form_style" required>
+                                <option value="" disabled selected>Pilih jenis motor</option>
+                                <option value="kecil">Kecil</option>
+                                <option value="besar">Besar</option>
+                                <option value="trabas">trabas</option>
+                            </select>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="tanggal">Pilih tanggal</label>
+                            <input id="tanggal" placeholder="Pilih tanggal" class="form_style" type="date" required>
+                        </div>
+                        <div>
+                            <button class="btn" type="submit">Lanjut</button>
+                            <p>Have an Account? <a class="link" href="">E wallet</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="/assets/js/admin.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/togle.js"></script>
+</body>
+</html>
